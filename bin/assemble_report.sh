@@ -7,3 +7,5 @@ pathName3=$(find $1 -type f -name "*country_dist.html")
 cat $pathName3 $pathName2 $pathName > test.txt
 #this wraps our files in html tags and writes the result as failed_login_summary.html
 ./bin/wrap_contents.sh test.txt ./html_components/summary_plots $1/failed_login_summary.html
+#cleaning the mess
+rm test.txt
