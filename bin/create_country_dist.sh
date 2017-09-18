@@ -26,3 +26,4 @@ rm fail.txt
 rm intermediate.txt
 rm ips.txt
 rm results.txt
+rm failtest.txt
